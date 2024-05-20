@@ -67,6 +67,7 @@
 		2C6BA2262BFB191B0057D1B0 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				2C87CEAD2BFB9B8A0014A761 /* AsyncImageList.swift */,
 				2C87CEAB2BFB91660014A761 /* NewsListView.swift */,
 				2CAA85D62BFB398A0079A1D8 /* String+Extension.swift */,
 				2C6BA23D2BFB27E90057D1B0 /* ArticleViewModel.swift */,
@@ -78,7 +79,6 @@
 				2C6BA2292BFB191B0057D1B0 /* ContentView.swift */,
 				2C6BA22B2BFB191C0057D1B0 /* Assets.xcassets */,
 				2C6BA22D2BFB191C0057D1B0 /* Preview Content */,
-				2C87CEAD2BFB9B8A0014A761 /* AsyncImageList.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";

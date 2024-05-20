@@ -13,7 +13,7 @@ enum Constants{
     //till question mark in URL
     static let baseURL = "https://newsapi.org/v2/top-headlines"
     //country value
-    static let country = "us"
+    static let country = "in"
     //API Key
     static let apiKey = "YOURAPIKEY"
     //Comnination with Endpoints for string URL
