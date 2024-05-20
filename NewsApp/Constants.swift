@@ -7,7 +7,7 @@
 
 import Foundation
 
-// https://newsapi.org/v2/top-headlines?country=us&apiKey=0d49dca934544b06b42020d61ccae496
+
 enum Constants{
     
     //till question mark in URL
