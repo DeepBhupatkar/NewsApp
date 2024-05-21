@@ -1,4 +1,4 @@
-# NewsFetch iOS App
+ *NewsFetch iOS App*
 
 ## Project Overview
 
