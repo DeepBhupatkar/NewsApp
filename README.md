@@ -14,13 +14,13 @@ NewsFetch is an iOS application that aggregates news from various sources using 
 
 ## Usage
 
-- **Launch the App: Open the NewsFetch app on your iOS device.
-- **Select Country: Use the country selection feature to filter news according to your location.
-- **View News Feed: Browse through the latest news articles displayed in the feed.
-- **Read Full Articles: Click on any news article to be redirected to the original source and read the full article.
-- **Refresh Feed: Pull down to refresh the news feed and get the latest articles.
+- **Launch the App**: Open the NewsFetch app on your iOS device.
+- **Select Country**: Use the country selection feature to filter news according to your location.
+- **View News Feed**: Browse through the latest news articles displayed in the feed.
+- **Read Full Articles**: Click on any news article to be redirected to the original source and read the full article.
+- **Refresh Feed**: Pull down to refresh the news feed and get the latest articles.
 
-##Contributing
+## Contributing
 
 We welcome contributions to enhance the NewsFetch app. 
 
