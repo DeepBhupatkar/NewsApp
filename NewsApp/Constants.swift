@@ -15,7 +15,7 @@ enum Constants{
     //country value
     static let country = "in"
     //API Key
-    static let apiKey = "YOURAPIKEY"
+    static let apiKey = ""
     //Comnination with Endpoints for string URL
     static var endPoint: String {
         Self.baseURL + "?country=" + Self.country + "&apiKey="
