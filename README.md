@@ -22,10 +22,11 @@ NewsFetch is an iOS application that aggregates news from various sources using 
 
 ## Contributing
 
-We welcome contributions to enhance the NewsFetch app. 
+- We welcome contributions to enhance the NewsFetch app. 
 
 # Set Up API Key
-# Obtain an API key from the news API provider (e.g., NewsAPI.org). Add this API key to Constant file or environment variables.
+
+- Obtain an API key from the news API provider (e.g., NewsAPI.org). Add this API key to Constant file or environment variables.
 
 
 ## Future Updates
