@@ -13,9 +13,9 @@ enum Constants{
     //till question mark in URL
     static let baseURL = "https://newsapi.org/v2/top-headlines"
     //country value
-    static let country = "in"
+    static let country = "us"
     //API Key
-    static let apiKey = ""
+    static let apiKey = "YOURAPIKEY"
     //Comnination with Endpoints for string URL
     static var endPoint: String {
         Self.baseURL + "?country=" + Self.country + "&apiKey="

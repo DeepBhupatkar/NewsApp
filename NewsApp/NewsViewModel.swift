@@ -13,14 +13,31 @@ class NewsViewModel : ObservableObject{
     @Published var articles: [ArticleViewModel] = []
     @Published var country = Country.country(code: Constants.country)
     @Published var isLoading = false
+    //for refresh
+    @Published var totalResults = 0
+    @Published var currentPage = 1
     
+    // by defult in api is count = 20 so we can increase the count so we can get different one
     
+    //below for calculating the number of pages we fetch by defult 20.
+    
+    var numPages : Int{
+        (Double (totalResults / 20) == Double(totalResults) / 20.0) ? (totalResults / 20 ) : (totalResults / 20 ) + 1
+    }
     
     //select the country endpoint value
     var countryEndpoint: String {
-        Constants.baseURL + "?country=" + country.code + "&apiKey="
+        Constants.baseURL + "?country=" + country.code + "&page=" + String(currentPage) + "&apiKey="
         + Constants.apiKey
     }
+    
+    
+    //this below function incerement the count each time after the func getNews() called
+    
+    func incrementPage(){
+        currentPage = (currentPage == numPages) ? 1 : currentPage + 1
+    }
+    
     
     //getNews Fuction is called APIService getJson
     func getNews(){
@@ -30,7 +47,7 @@ class NewsViewModel : ObservableObject{
                       do {
                           let news:News = try await APIService.shared.getJSON(urlString: countryEndpoint, dateDecodingStrategy: .iso8601)
                           articles = news.articles.map(ArticleViewModel.init)
-                     
+                          totalResults = news.totalResults
                           isLoading = false
                       } catch {
                           print(error.localizedDescription)

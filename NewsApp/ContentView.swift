@@ -35,6 +35,10 @@ struct ContentView: View {
                             .task {
                                 viewModel.getNews()
                             }
+                            .refreshable {
+                                viewModel.incrementPage()
+                                viewModel.getNews()
+                            }
                     } else{
                         NewsListView(articles: viewModel.articles)
                         
