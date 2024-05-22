@@ -30,7 +30,7 @@ struct ContentView: View {
                         }
                         .padding(.horizontal)
                     }
-                    if #available(iOS 17.2, *){
+                   // if #available(iOS 17.2, *){
                         NewsListView(articles: viewModel.articles)
                             .task {
                                 viewModel.getNews()
@@ -39,13 +39,13 @@ struct ContentView: View {
                                 viewModel.incrementPage()
                                 viewModel.getNews()
                             }
-                    } else{
-                        NewsListView(articles: viewModel.articles)
-                        
-                        .onAppear{
-                            viewModel.getNews()
-                        }
-                    }
+//                    } else{
+//                        NewsListView(articles: viewModel.articles)
+//
+//                        .onAppear{
+//                            viewModel.getNews()
+//                        }
+//                    }
                 }
                 .sheet(isPresented: $changeCountry) {
                     viewModel.articles = []
