@@ -13,7 +13,7 @@ struct ContentView: View {
     @State private var changeCountry = false
     var body: some View {
         
-        NavigationView {
+       NavigationView {
             ZStack {
 
                 VStack{
@@ -59,9 +59,11 @@ struct ContentView: View {
                         .background(RoundedRectangle(cornerRadius: 10).fill(Color(.systemBackground)))
                         .shadow(radius: 12)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                        
                 }
             }
-            .navigationTitle("Top News")
+            .navigationTitle("FetchNews")
+            
         }
     }
     
