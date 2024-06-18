@@ -1,5 +1,5 @@
  *NewsFetch iOS App*
-
+Demo Video Link : https://drive.google.com/file/d/1WPiqBz7Wois_rnrWx60ceWdeb50A9hE3/view
 ## Project Overview
 
 NewsFetch is an iOS application that aggregates news from various sources using a news API. The app provides users with a streamlined and intuitive way to stay updated with the latest news. Users can view news titles, authors, descriptions, sources, and images in the preview. By clicking a button, users are redirected to the original source where the news is published. Additionally, users have the option to select their country to tailor the news feed according to their location. Each time the feed is refreshed, new news articles are fetched and displayed.
