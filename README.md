@@ -1,4 +1,4 @@
- *NewsFetch iOS App*
+ ## NewsFetch iOS App
  
 Demo Video Link : https://drive.google.com/file/d/1WPiqBz7Wois_rnrWx60ceWdeb50A9hE3/view
 
